@@ -1,10 +1,10 @@
 //navbar2 -Andrea//
-@mixin poner-size($font-size,$base-width,$base-height){
+@mixin ponerSize($font-size,$base-width,$base-height){
 	font-size:$font-size;
 	width:$base-width;
 	height:$base-height;
 }
-@mixin paddings-margin($base-pading,$base-padingb,$base-margin,$base-marginb){
+@mixin paddingsMargin($base-padding,$base-paddingb,$base-margin,$base-marginb){
 	padding-top:$base-padding;
 	padding-bottom:$base-padding;
 	padding-left:$base-paddingb;
@@ -14,11 +14,11 @@
 	margin-left:$base-marginb;
 	margin-right:$base-marginb;
 }
-@mixin border($border,$solido,$transparent,$border-radius){
-border:$border $solido $transparent;
+@mixin borders($border,$tipo-borde,$negro,$border-radius,$center){
+border:$border $tipo-borde $negro;
 border-radius:$border-radius;
 }
-@mixin textDecoration-color($decoration , $fondo-celeste){
+@mixin textDecorationColor($decoration , $fondo-celeste){
 	text-decoration:$decoration;
 	color:$fondo-celeste;
 }
