@@ -1,1 +1,10 @@
 //navbar2 -Andrea//
+@mixin poner-size($font-size,$base-width,$base-height){
+	font-size:$font-size;
+	width:$base-width;
+	height:$base-height;
+}
+@mixin padding-border($padding-top,$padding-bottom,$padding-left,$padding-right){
+	padding:$top,$bottom,$left,$right;
+	border:$top,$bottom,$left,$right;
+}

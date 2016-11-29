@@ -1,2 +1,6 @@
 @import "_variables";
 @import "_mixin";
+
+header .btn-buscar{
+	@include poner-size($font-size/2,null,null);
+	
